@@ -4,8 +4,8 @@ const webpack = require('webpack');
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.join(__dirname, './dist'),
-    publicPath: '/dist/',
+    path: path.resolve(__dirname, './dist'),
+    publicPath: '/asferro-test-project/',
     filename: 'build.js',
   },
   module: {
