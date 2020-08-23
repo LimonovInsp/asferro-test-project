@@ -1,0 +1,33 @@
+.modal-input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  color: $main-dark-color;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  margin: 5px 1px 20px 0px;
+  border-radius: 5px;
+  border: 1px solid #DDDDDD;
+}
+
+.modal-input-approval {
+  box-shadow: 0 0 5px rgb(20, 178, 7);
+  border: 1px solid rgb(20, 178, 7);
+}
+
+.modal-input-error {
+  box-shadow: 0 0 5px rgb(206, 8, 8);
+  border: 1px solid rgb(206, 8, 8);
+}
+
+.app-validation-error {
+  color: #ce0808;
+}
+
+.app-validation-approval {
+  color: green;
+}

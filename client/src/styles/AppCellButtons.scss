@@ -1,0 +1,22 @@
+
+.app_button {
+  width: 100px;
+  height: 35px;
+  color: $main-white-color;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.app_button-edit {
+  background-color: #1097f1;
+}
+
+.app_button-delete {
+  background-color: #ce1408;
+}

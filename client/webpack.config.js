@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/asferro-test-project/',
+    publicPath: '/dist/',
     filename: 'build.js',
   },
   module: {
