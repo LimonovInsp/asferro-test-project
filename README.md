@@ -14,7 +14,7 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev (on the client-side)
-node server/server.js (inside the general folder)
+node server/server.js (inside the general folder to see datas changes)
 
 # build for production with minification
 npm run build
